@@ -8,6 +8,10 @@ const routes = [
     path: '/father',
     name: 'Father',
     component: () => import('../views/1.Child-to-Father-emit/Father.vue')
+  },{
+    path: '/slotShow',
+    name: 'SlotShow',
+    component: () => import('../views/2.Slot/SlotShow.vue')
   }
 ]
 
