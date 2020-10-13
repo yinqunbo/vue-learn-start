@@ -16,6 +16,10 @@ const routes = [
     path: '/sync',
     name: 'Index',
     component: () => import('../views/3.Sync/Index.vue')
+  },{
+    path: '/eventBus',
+    name: 'Index',
+    component: () => import('../views/4.EventBus/Index.vue')
   }
 ]
 
