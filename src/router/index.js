@@ -12,6 +12,10 @@ const routes = [
     path: '/slotShow',
     name: 'SlotShow',
     component: () => import('../views/2.Slot/SlotShow.vue')
+  },{
+    path: '/sync',
+    name: 'Index',
+    component: () => import('../views/3.Sync/Index.vue')
   }
 ]
 
