@@ -10,8 +10,8 @@ export default {
             }
         },
         created() {
-            this.$bus.$on('busMsg',value => {
-                this.grandchildmsg = value
+            this.$bus.$on('busMsg',val => {
+                this.grandchildmsg = val
             })
         }
 }
